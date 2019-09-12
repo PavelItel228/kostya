@@ -1,0 +1,396 @@
+<html>
+
+<head>
+	<link rel="stylesheet"
+       href="{{ url_for('static', filename='lab_1.2.css')}}">
+<title>
+	My lab1
+</title>
+
+<script> 
+ type="text/javascript">
+ alert ("Нажмите пожалуйста Ok если хотите зайти на страницу" );
+</script>
+
+<style>
+
+    table {
+
+      width: 50%;
+
+      border-collapse: collapse;
+
+      table-layout: fixed;
+
+    }
+
+
+
+    body {
+
+      background: #333;
+
+      display: flex;
+
+      flex-flow: column nowrap;
+
+      align-items: center;
+
+    }
+
+
+
+    * {
+
+      color: white;
+
+    }
+
+
+
+    td {
+
+      border: 1px solid darkgreen;
+
+      height: 30px;
+
+      transition: all .2s;
+
+    }
+
+
+
+    td:hover {
+
+      background: darkslategray;
+
+    }
+
+
+
+    p {
+
+      margin-top: 20px;
+
+    }
+
+
+
+  </style>
+
+</head>
+
+<body>
+
+	<p class="first_text">
+ <strong> Добро пожаловать на страницу! </strong>
+</p>
+<table class="ssilka" width="100%" border="0" style="text-align:center" cellspacing="0" cellpadding="0">
+	<tr>
+		<td><a href="/1"target="_blank">Fhoto</a></td>
+
+		<td><a href="/2"target="_blank">Google_map</a></td>
+
+		<td><a href="/3"target="_blank">???</a></td>
+		
+		<td><a href="/4"target="_blank">???</a></td>
+	</tr>
+</table>
+
+<p class="second_text">
+Таблиця №1</p>
+
+  <table>
+
+    <tr>
+
+      <td colspan="7"></td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="6"></td>
+
+      <td rowspan="6"></td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="5"></td>
+
+      <td rowspan="5"></td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="4"></td>
+
+      <td rowspan="4"></td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="3"></td>
+
+      <td rowspan="3"></td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="2"></td>
+
+      <td rowspan="2"></td>
+
+    </tr>
+
+    <tr>
+
+      <td></td>
+
+      <td></td>
+
+    </tr>
+
+  </table>
+
+
+
+  <p class="third">Таблиця №2</p>
+
+  <table>
+
+    <tr>
+
+      <td colspan="6"></td>
+
+      <td rowspan="7"></td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="5"></td>
+
+      <td rowspan="6"></td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="4"></td>
+
+      <td rowspan="5"></td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="3"></td>
+
+      <td rowspan="4"></td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="2"></td>
+
+      <td rowspan="3"></td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="1"></td>
+
+      <td rowspan="2"></td>
+
+    </tr>
+
+    <tr>
+
+      <td></td>
+
+    </tr>
+
+  </table>
+
+
+
+  <p class="four">Таблиця №3</p>
+
+  <table style="height: 200px;">
+
+    <tr>
+
+      <td></td>
+
+      <td rowspan="2"></td>
+
+      <td></td>
+
+      <td rowspan="2"></td>
+
+      <td></td>
+
+      <td rowspan="2"></td>
+
+      <td></td>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="2"></td>
+
+      <td rowspan="2"></td>
+
+      <td rowspan="2"></td>
+
+      <td rowspan="2"></td>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="2"></td>
+
+      <td rowspan="2"></td>
+
+      <td rowspan="2"></td>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="2"></td>
+
+      <td rowspan="2"></td>
+
+      <td rowspan="2"></td>
+
+      <td rowspan="2"></td>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="2"></td>
+
+      <td rowspan="2"></td>
+
+      <td rowspan="2"></td>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="2"></td>
+
+      <td rowspan="2"></td>
+
+      <td rowspan="2"></td>
+
+      <td rowspan="2"></td>
+
+    </tr>
+
+    <tr>
+
+      <td></td>
+
+      <td></td>
+
+      <td></td>
+
+    </tr>
+
+  </table>
+
+
+
+  <p class="five">Таблиця №4</p>
+
+  <table>
+
+    <tr>
+
+      <td colspan="3"></td>
+
+      <td colspan="3"></td>
+
+      <td></td>
+
+    </tr>
+
+    <tr>
+
+      <td></td>
+
+      <td colspan="3"></td>
+
+      <td colspan="3"></td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="2"></td>
+
+      <td colspan="3"></td>
+
+      <td colspan="2"></td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="3"></td>
+
+      <td colspan="3"></td>
+
+      <td></td>
+
+    </tr>
+
+    <tr>
+
+      <td></td>
+
+      <td colspan="3"></td>
+
+      <td colspan="3"></td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="2"></td>
+
+      <td colspan="3"></td>
+
+      <td colspan="2"></td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="3"></td>
+
+      <td colspan="3"></td>
+
+      <td></td>
+
+    </tr>
+
+  </table>
+
+
+</body>
+
+</html

@@ -1,0 +1,67 @@
+.ssilka td
+{
+	border : none;
+	display: inline;
+	color: paleturquoise;
+	background-color: transparent;	
+
+
+}
+
+.ssilka a{
+	padding-right: 10px;
+	color: paleturquoise;
+	text-decoration: none;
+}
+
+
+.ssilka a:hover{
+		text-decoration: underline;
+		background: none;
+
+}
+
+.ssilka td:hover{
+	background-color: transparent;	
+}
+
+p.first_text
+{
+	padding: 10px;
+	border-style: solid
+	border-width:5 px;
+	background-color: grey;
+}
+p.second_text
+{
+	padding: 10px;
+	border-style: solid
+	border-width:5 px;
+	background-color: red;
+}
+
+p.third
+{
+	padding: 10px;
+	border-style: solid
+	border-width:5 px;
+	background-color: red;
+}
+
+p.four
+{
+	padding: 10px;
+	border-style: solid
+	border-width:5 px;
+	background-color: red;
+}
+
+p.five
+{
+	padding: 10px;
+	border-style: solid
+	border-width:5 px;
+	background-color: red;
+}
+
+p
